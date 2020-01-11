@@ -41,16 +41,16 @@ public class AboutActivity extends WfcBaseActivity {
 
     @OnClick(R.id.introOptionItemView)
     public void intro() {
-        WfcWebViewActivity.loadUrl(this, "野火IM功能介绍", "http://docs.wildfirechat.cn/");
+        WfcWebViewActivity.loadUrl(this, "鼠聊IM功能介绍", "http://docs.wildfirechat.cn/");
     }
 
     @OnClick(R.id.agreementOptionItemView)
     public void agreement() {
-        WfcWebViewActivity.loadUrl(this, "野火IM用户协议", "http://www.wildfirechat.cn/firechat_user_agreement.html");
+        WfcWebViewActivity.loadUrl(this, "鼠聊IM用户协议", "http://www.3x5y.com:8888/firechat_user_agreement.html");
     }
 
     @OnClick(R.id.privacyOptionItemView)
     public void privacy() {
-        WfcWebViewActivity.loadUrl(this, "野火IM个人信息保护政策", "http://www.wildfirechat.cn/firechat_user_privacy.html");
+        WfcWebViewActivity.loadUrl(this, "鼠聊IM个人信息保护政策", "http://www.3x5y.com:8888/firechat_user_privacy.html");
     }
 }
